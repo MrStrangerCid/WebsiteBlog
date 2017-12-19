@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<title>
+			Index
+		</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+			<link rel="stylesheet" type="text/css" href="css/contactstyle.css">
+			<link rel="stylesheet" type="text/css" href="css/footerstyle.css">
+			<link rel="stylesheet" type="text/css" href="css/contactinfostyle.css">
+			<link rel="stylesheet" type="text/css" href="css/autobiostyle.css">
+			<link rel="stylesheet" href="css/fontAwesome.css">
+			<script src="javascript/jscript.js" type="text/javascript"></script>
+			<script src="javascript/imagetable.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<button class="tablink" onclick="openPage('Home', this, '#32b2e5')" id="defaultOpen">Home</button>
+		<button class="tablink" onclick="openPage('Autobiography', this, '#32b2e5')" >Autobiography</button>
+		<button class="tablink" onclick="openPage('Contact', this, '#32b2e5')">Contact</button>
+		<button class="tablink" onclick="openPage('About', this, '#32b2e5')">About</button>
+		
+		<div id="Home" class="tabcontent">
+			<div class="homecontent">
+				<center><h2>Welcome to my Blog !</h2></center>
+				<center><p>Here you can find all the things about me and when you exploring my website, you can learn alot from me.</p></center>
+				<center><p>So come and check it out!</p></center>
+			</div>
+		</div>
+
+		<div id="Autobiography" class="tabcontent">
+			<div class="autobiocontent">
+				<div id="slideshow">
+					<div class="slide-wrapper">
+						<div class="slide"><h1 class="slide-number"></h1></div>
+						<div class="slide"><h1 class="slide-number"></h1></div>
+						<div class="slide"><h1 class="slide-number"></h1></div>
+						<div class="slide"><h1 class="slide-number"></h1></div>
+						<div class="slide"><h1 class="slide-number"></h1></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="Contact" class="tabcontent">
+			<div class="contactcontent">
+				<div class="textcontainer">
+				<center><b><label for="texttitle">Send us A Message!</label></b></center><br>
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+					<label for="country">Country</label>
+					<select id="country" name="country">
+						<option value="philippines">Philippines</option>
+						<option value="asia">Asia</option>
+						<option value="usa">USA</option>
+					</select>
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+					</textarea>
+					<input type="submit" value="Submit" onclick="buttonclick()">
+					<script>
+						function buttonclick() {
+						alert("SUCCESS!");
+						}
+					</script>
+					<br>
+					<center><label for="texttitle">Get in touch with us</label></center>
+					<center>
+						<a href="https://www.facebook.com/xycId" target="_blank" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/AmazingCid" target="_blank" class="fa fa-twitter"></a>
+						<a href="https://www.android.com" target="_blank" class="fa fa-android"></a>
+						<a href="https://plus.google.com/u/0/114752756214198095692" target="_blank" class="fa fa-google"></a>
+						<a href="https://instagram.com/xycId" target="_blank" class="fa fa-instagram"></a>
+					</center>
+				</div>
+			</div>
+		</div>
+
+		<div id="About" class="tabcontent">
+			<div class="entry">
+				<div class="container">    
+					<div class="button entypo-chat"></div>
+					<div class="name">CJ Pastor
+						<span class="small">(UI / UX Designer)</span>      
+					</div>
+					
+						<div class="photo">
+							<img src="image/profilepic1.jpg" alt="" class="pic">>
+						</div>
+				</div>
+					<p class="comment">CJ Pastor is a student of CSU Carig who loves to read and code. He's Coding in his free time and loves to browse the web for new techs and updates.</p>
+			</div>
+
+			<div class="entry">
+				<div class="container">    
+					<div class="button entypo-chat"></div>
+					<div class="name"><center>Judy Ann Deundo</center>
+						<span class="small"><center>(Web Designer)</center></span>      
+					</div>
+					
+						<div class="photo">
+							<img src="image/profilepic2.jpg" alt="" class="pic">
+						</div>
+				</div>
+					<p class="comment">Judy Ann is a freelance coder / web designer who codes just for fun. She loves to write blogs and news about technologies and advancements. And also loves cats!</p>
+			</div>
+
+			<div class="entry">
+				<div class="container">    
+					<div class="button entypo-chat"></div>
+						<div class="name">Vin Uboan
+							<span class="small">(Web Programmer)</span>      
+						</div>
+					
+					<div class="photo">
+						<img src="image/profilepic3.jpg" alt="" class="pic">
+					</div>
+				</div>
+					<p class="comment">Vin Uboan is a part-time programmer and a website developer. He is a student of Cagayan State University and taking a degree on computer sciences.</p>
+			</div>
+			
+			<footer class="footer">
+			<p class="footer-motto">Web design Project</p>
+				<p class="footer-links">
+					<a href="https://www.facebook.com/xycId" target="_blank">Facebook</a>
+					·
+					<a href="https://twitter.com/AmazingCid?lang=en" target="_blank">Twitter</a>
+					·
+					<a href="https://github.com/MrStrangerCid" target="_blank">Github</a>
+					·
+					<a href="https://plus.google.com/u/0/114752756214198095692 target="_blank">Google+</a>
+					·
+					<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Licenses</a>
+				</p>
+				<p class="footer-name">The College of Information and Computing Science | BSCS 3C &copy; 2017</p>
+			</footer>
+		</div>
+	</body>
+</html> 
